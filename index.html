@@ -9,10 +9,71 @@
 </head>
 <body>
 
-		<h1>Formuláře</h1>
+	<h1>Formuláře</h1>
+
+	<form id="formular">
+
+		<div class="form-policko">
+			<label for="jmeno">Jméno</label>
+			<input id="jmeno" type="text" maxlength="10">
+		</div>
+
+		<div class="form-policko">
+			<label for="prijmeni">Příjmení</label>
+			<input id="prijmeni" type="text">
+		</div>
+
+		<div class="form-policko">
+			<label for="vek">Věk</label>
+			<input id="vek" type="number">
+		</div>
+
+		<div class="form-policko">
+			<label for="email">E-mail</label>
+			<input id="email" type="email">
+		</div>
+
+		<div class="form-policko">
+			<label for="datum">Datum</label>
+			<input id="datum" type="date">
+		</div>
+
+		<div class="form-policko">
+			<label for="barva">Barva vlasů</label>
+			<input id="barva" type="color">
+		</div>
+
+
+		<div class="form-policko">
+			<label for="adresa">Adresa</label>
+			<textarea id="adresa" cols="25" rows="4"></textarea>
+		</div>
+
+		<div class="form-policko">
+			<label for="mesto">Město</label>
+			<select id="mesto">
+				<option></option>
+				<option>Praha</option>
+				<option>Brno</option>
+				<option>Ostrava!!!</option>
+				<option selected>České Budějovice</option>
+				<option>Most</option>
+			</select>
+		</div>
+
+		<div class="form-zaskrtavaci-policko">
+			<input id="souhlas" type="checkbox">
+			<label for="souhlas">Souhlasím, že mi ukradnete osobní údaje a budete mi posílat spam</label>
+		</div>
 
 
 
-		<script src="main.js"></script>
+		<button>OK</button>
+
+	</form>
+
+
+
+	<script src="main.js"></script>
 </body>
 </html>

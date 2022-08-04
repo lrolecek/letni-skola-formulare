@@ -5,3 +5,44 @@ body {
 	font: 18px sans-serif;
 }
 
+
+
+.form-policko,
+.form-zaskrtavaci-policko {
+	margin-bottom: 15px;
+}
+
+.form-policko label {
+	display: block;
+	color: gray;
+	font-size: 70%;
+}
+
+.form-policko input,
+.form-policko textarea,
+.form-policko select {
+	border: 2px solid dodgerblue;
+	padding: 6px;
+	border-radius: 4px;
+}
+
+.form-policko input:focus,
+.form-policko textarea:focus,
+.form-policko select:focus {
+	outline: 0;
+	border: 2px solid red;
+	background-color: yellow;
+}
+
+.form-zaskrtavaci-policko label {
+	color: gray;
+	font-size: 70%;
+}
+
+button {
+	font-size: 24px;
+	padding: 10px 20px;
+	background-image: linear-gradient(red, orange);
+	color: white;
+	border-radius: 4px;
+}
